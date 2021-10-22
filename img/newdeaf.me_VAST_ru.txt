@@ -1,0 +1,27 @@
+<!-- Site name: newdeaf.me
+Zone name: newdeaf.me_VAST_ru
+Zone id: 1968248660
+Type: VAST
+ --> 
+
+<!-- Copy and paste this code on the page. -->
+<script data-cfasync='false'>
+    (function(w,d,o,g,r,a,m){
+        var cid=(Math.random()*1e17).toString(36);d.write('<div id="'+cid+'"></div>');
+        w[r]=w[r]||function(){(w[r+'l']=w[r+'l']||[]).push(arguments)};
+        function e(b,w,r){if((w[r+'h']=b.pop())&&!w.ABN){
+            var a=d.createElement(o),p=d.getElementsByTagName(o)[0];a.async=1;a.setAttribute('data-cfasync','false');
+            a.src='https://cdn.'+w[r+'h']+'/libs/e.js';a.onerror=function(){e(g,w,r)};
+            p.parentNode.insertBefore(a,p)}}e(g,w,r);
+        w[r](cid,{id:1968248660,domain:w[r+'h']});
+    })(window,document,'script',['trafficbass.com'],'ABNS');
+</script>
+
+<!--
+Устанавливая код зоны, убедитесь:
+  - вы сообщили все домены, с которых будет вызываться код зоны
+  - сайт не ограничивает загрузка контента в Content Security Policy
+  - устанавливаете код зоны в body
+  - код зоны VAST установлен после плеера
+  - плеер находится внутри <div id="preroll"> (или сообщите уникальный селектор расположения плеера)
+-->
